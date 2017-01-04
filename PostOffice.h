@@ -21,7 +21,7 @@ public:
 	bool checkMail(const Address& self) const;
 	bool isValidAddress(const Address& other) const;
 
-	void sendMesssage(const Address& to, Message& message);
+	void sendMessage(const Address& to, Message& message);
 	Message getMail(const Address& self);
 
 private:

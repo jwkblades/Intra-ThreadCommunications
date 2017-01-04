@@ -56,7 +56,7 @@ bool PostOffice::isValidAddress(const Address& other) const
 	return mMailboxes.find(other) != mMailboxes.end();
 }
 
-void PostOffice::sendMesssage(const Address& to, Message& message)
+void PostOffice::sendMessage(const Address& to, Message& message)
 {
 	std::map<Address, std::list<Message>>::iterator messages;
 	{
