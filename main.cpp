@@ -58,7 +58,7 @@ int main(void)
 						}
 						const char* str = msgStr.c_str();
 						Message toSend(str, msgStr.size() + 1);
-						postOffice->sendMesssage(other, toSend);
+						postOffice->sendMessage(other, toSend);
 					}
 
 				} while (myReceivedMessages < 10);
